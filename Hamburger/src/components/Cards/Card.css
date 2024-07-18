@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    background: #282828;
+    padding: 3rem;
+    color: white;
+
+
+    .card-holder{
+        background: #22252C;
+        padding: 2rem;
+
+        .card-container{
+            width: 25vw;
+            background: #1A1B21;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .heading{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+
+                p{
+                    color: #FF7600;
+                    margin-top: -5px;
+                }
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: .8rem;
+                    font-weight: 300;
+                    margin-top: -7px;
+                }
+                h4{
+                    font-size: 2rem;
+                }
+            }
+
+            .container{
+                padding: 0 2.45rem;
+            }
+        }
+    }
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .links{
+        background: #161619;
+        border-radius: 0px 0px 20px 20px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+
+        .link{
+            background: grey;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+}
+
+.active p {
+    color: black;
+}
+.active a {
+    color: black !important;
+}
+.active h4{
+    color: black;
+}
+.active h3{
+    color: black;
+}
+.active .card-container{
+    background-color: white !important;
+}
+.active .links{
+    background-color: grey !important;
+}
+.active .link{
+    background-color: #22252C !important;
+}
+.active .first-btn{
+    background-color: #2095E2 !important;
+    color: white !important;
+}
+.active .linkedIn{
+    background-color: white !important;
+    border: 2px solid gray !important;
+    color: black !important;
+    
+}
+
